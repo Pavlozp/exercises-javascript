@@ -21,8 +21,8 @@ theory: |
   JavaScript позволяет узнать тип данных с помощью оператора `typeof`:
 
   ```javascript
-  typeof 3; // 'number'
-  typeof 'Game'; // 'string'
+  console.log ( typeof 3 ); // 'number'
+  console.log ( typeof 'Game' ); // 'string'
   ```
 
   Типы данных Number, BigInt и String — это *примитивные* типы. Но есть и другие. В JavaScript встроен составной тип Object (а на его базе массивы, даты и другие). С его помощью можно объединять данные разных типов в одно значение, например, мы можем создать пользователя добавив к нему имя и возраст.
