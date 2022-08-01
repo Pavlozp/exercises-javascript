@@ -16,7 +16,7 @@ theory: |
   import { length } from 'hexlet-basics/string';
 
   // Вызов функции length с параметром 'Hello!'
-  const result = length('Hello!');
+  const result = 'Hello!'.length;
   console.log(result); // => 6
   ```
 
@@ -29,7 +29,7 @@ theory: |
   ```javascript
   // Вызов length возвращает результат (длину строки)
   // который записывается в константу с именем result
-  const result = length('Hello!');
+  const result = 'Hello!'.length;
   ```
 
   Запись `length('Hello!')` означает, что вызывается функция с именем *length*, в которую был передан параметр `'Hello!'`. Функция `length()` считает длину именно той строки, которая ей была передана.
